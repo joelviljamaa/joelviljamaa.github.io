@@ -1,15 +1,15 @@
-
+/* this changes the background color to lightblue */
 body {
   background-color:lightblue;
 }
 
-
+/* this changes the headline color to black and aligns the text to the center */
 h1 {
   color:black;
   text-align:center;
 }
 
-
+/* this changes the paragraphs color to black and changes the font size to 30 pixels */
 p {
   color:black;
   font-size:30px;
