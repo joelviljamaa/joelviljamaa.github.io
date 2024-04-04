@@ -1,0 +1,90 @@
+body {
+	background-color: paleturquoise;
+	background-image: url("img/");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+p {
+	color: darkgray;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Georgia, serif;
+	text-align: center;
+	text-indent: 20px;
+	line-height: 40px;
+	word-spacing: 2px;
+}
+
+	/* kommentti */
+
+footer {
+	font-size: 60px;
+}
+
+.links li{
+	text-align: center;
+	list-style: none;
+}
+
+h1 {
+	color: grey;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	text-decoration: 
+	transform: uppercase;
+	letter-spacing: 2 px;
+	
+}
+	
+	
+	h2 {
+		color: grey;
+		font-size: 30px;
+	font-weight: normal;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+}
+
+h1, h2 {
+	color: rgb(104, 104, 104);
+}
+
+.logo {
+	text-align: center;
+}
+
+li{
+	color: #666;
+	font-family: georgia, serif;
+	list-style: square;
+}
+
+
+
+
+
+.nav {
+	text-align: center;
+}
+
+.nav li {
+	list-style-type: none;
+	display: inline;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+a {
+	font-size: 20px;
+}
+
+a:hover, a:focus {
+	color: rgba( 330, 330, 330, 1);
+	text-decoration: underline;
+}
