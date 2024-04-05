@@ -35,12 +35,10 @@ h1 {
 	font-family: Verdana, sans-serif;
 	text-align: center;
 	text-decoration: 
-	transform: uppercase;
-	letter-spacing: 2 px;
+	letter-spacing 2px;
 	
 }
-	
-	
+
 	h2 {
 		color: grey;
 		font-size: 30px;
@@ -63,10 +61,6 @@ li{
 	list-style: square;
 }
 
-
-
-
-
 .nav {
 	text-align: center;
 }
@@ -74,6 +68,9 @@ li{
 .nav li {
 	list-style-type: none;
 	display: inline;
+	border-style: solid;
+	border-color: cadetblue;
+	color: #666;
 }
 
 blockquote {
