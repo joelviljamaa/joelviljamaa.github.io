@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(78, 83, 87);
+}
+
+.header-main{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-logo{
+    width: fit-content;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.header-main-logo img{
+    height: 30px;
+}
+
+
+.header-main-nav{
+    width: 120px;
+    height: 100%;
+    background-color: violet;
+}
+
+.header-main-sm{
+    width: 120px;
+    height: 100%;
+    background-color: orangered;
+}
