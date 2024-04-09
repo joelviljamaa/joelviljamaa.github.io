@@ -2,6 +2,19 @@ body{
     background-color: rgb(78, 83, 87);
 }
 
+body::after{
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(../joelviljamaa.github.io/img/facebook-color.png) url(../joelviljamaa.github.io/img/instagram-color.png);
+}
+
+a{
+    cursor: pointer;
+}
+
 .header-main{
     width: 100%;
     height: 60px;
@@ -13,23 +26,73 @@ body{
 .header-main-logo{
     width: fit-content;
     height: 100%;
-    background-color: aquamarine;
     display: flex;
+    padding-left: 60px;
 }
 
 .header-main-logo img{
-    height: 30px;
+    height: 40px;
+    align-self: center;
 }
 
 
 .header-main-nav{
-    width: 120px;
+    width: fit-content;
     height: 100%;
-    background-color: violet;
+}
+
+.header-main-nav ul{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.header-main-nav ul li{
+     display: inline;
+     float: left;
+}
+
+.header-main-nav ul li a{
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: #000;
+    display: block;
+    height: 100%;
+}
+
+.header-main-nav ul li a:hover{
+    color: #c13584;
 }
 
 .header-main-sm{
-    width: 120px;
+    width: fit-f;
     height: 100%;
-    background-color: orangered;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header-main-sm-fb{
+    width: 20px;
+    height: 20px;
+    background-image: url(../joelviljamaa.github.io/img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-fb:hover{
+    background-image: url(../joelviljamaa.github.io/img/facebook-color.png);
+}
+
+.header-main-sm-in{
+    width: 20px;
+    height: 20px;
+    background-image: url(../joelviljamaa.github.io/img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-in:hover{
+    background-image: url(../joelviljamaa.github.io/img/instagram-color.png);
 }
