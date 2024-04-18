@@ -1,3 +1,12 @@
 body{
     background-color: aquamarine;
 }
+.cool{
+width: 100px;
+height: 60px;
+background-color: violet;
+transition: background-color 1s;
+}
+.cool.red{
+    background-color: red;
+}
