@@ -5,7 +5,7 @@ var doCoolStuff = function () {
         document.getElementById('cool').className = 'cool red'
     } else {
         document.getElementById('cool').className = 'cool'
-    }
+    }jkljkl
 
     //changing class namedocument.getElementById('cool').className = 'cool red';
 }
