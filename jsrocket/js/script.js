@@ -1,4 +1,4 @@
-/*var doCoolStuff = function () {
+/*   joku vanha tehtävä          var doCoolStuff = function () {
     var currentClassName = document.getElementById('cool').className;
 
     if (currentClassName == 'cool') {
