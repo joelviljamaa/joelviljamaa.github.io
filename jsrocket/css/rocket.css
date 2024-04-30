@@ -8,7 +8,7 @@
 }
 
 .right{
-    background-color: white;
+    background-color: lightcyan;
     position: fixed;
     width: 50%;
     height: 100%;
@@ -36,9 +36,23 @@
     transition bottom: 10000ms;
 }
 
-.rocket.flying{
+body.bosy-state3 .rocket{
     bottom: 1000px;
 }
+
+.state1,
+.state2,
+.state3,
+.state4,
+.state5{
+display: none;
+}
+
+body.body-state1 .state1{display: block;}
+body.body-state1 .state2{display: block;}
+body.body-state1 .state3{display: block;}
+body.body-state1 .state4{display: block;}
+body.body-state1 .state5{display: block;}
 
 a.button{
 
