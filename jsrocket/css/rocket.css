@@ -16,6 +16,20 @@
     right: 0;
 }
 
+.rocket{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    width: 40px;
+    height: 200px;
+    background-color: blue;
+    transition: bottom 10000ms;
+}
+
+body.body-state3 .rocket{
+    bottom: 1000px;
+}
+
 
 .ground{
     background-color: green;
@@ -26,19 +40,15 @@
     height: 20px;
 }
 
-.rocket{
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    width: 20px;
-    height: 100px;
-    background-color: blue;
-    transition bottom: 10000ms;
+body.body-state1 .rocket{
+    transition: none;
 }
 
-body.bosy-state3 .rocket{
+body.body-state3 .rocket,
+body.body-state4 .rocket{
     bottom: 1000px;
 }
+
 
 .state1,
 .state2,
@@ -49,10 +59,14 @@ display: none;
 }
 
 body.body-state1 .state1{display: block;}
-body.body-state1 .state2{display: block;}
-body.body-state1 .state3{display: block;}
-body.body-state1 .state4{display: block;}
-body.body-state1 .state5{display: block;}
+body.body-state2 .state2{display: block;}
+body.body-state3 .state3{display: block;}
+body.body-state4 .state4{display: block;}
+body.body-state5 .state5{display: block;}
+
+a{
+
+}
 
 a.button{
 
