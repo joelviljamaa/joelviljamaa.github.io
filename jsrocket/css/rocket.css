@@ -1,10 +1,12 @@
 .left{
-    background-color:darkorchid;
+    background-color:rgb(150, 86, 182);
     position: fixed;
     width: 50%;
     height: 100%;
     top: 0;
     left: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
 
 .interface{
@@ -28,7 +30,7 @@ text-transform: uppercase;
 }
 
 a:hover{
-    color: rgb(68, 92, 170);
+    color: rgb(87, 67, 177);
 }
 
 .right{
@@ -86,7 +88,7 @@ display: block;
     height: 272px;
     margin-left: -71.5;
     background: url(../img/rocket-state1.png) no-repeat 0 0;
-    transition: bottom 10000ms;
+    transition: bottom 5000ms;
 }
 
 body.body-state3 .rocket{
