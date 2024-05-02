@@ -20,9 +20,22 @@ var changeState= function(state){
             countdownNumber = countdownNumber -1;
             document.getElementById('countdown').innerHTML= countdownNumber;
             
+            if (countdownNumber > 3 && countdownNumber <= 6) {
+                document.getElementById('nervous').className = 'nervous show';
+            } else {
+                document.getElementById('nervous').className = 'nervous';
+            }
+
+            if (countdownNumber == 3) {
+                document.getElementById('cant-wait').className = 'cant-wait show';
+            } else {
+                document.getElementById('cant-wait').className = 'cant-wait';
+            }
+
+
             if (countdownNumber <= 0){
                 changeState(3);
-            }
+            };
         }, 200);
 
     }      
