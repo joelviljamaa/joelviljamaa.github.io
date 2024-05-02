@@ -1,4 +1,5 @@
-/*   joku vanha tehtävä          var doCoolStuff = function () {
+/*   (joku vanha tehtävä) 
+    var doCoolStuff = function () {
     var currentClassName = document.getElementById('cool').className;
 
     if (currentClassName == 'cool') {
@@ -9,9 +10,14 @@
 
     changing class namedocument.getElementById('cool').className = 'cool red';
 */
+
+/* Timer settings */
 var timer = null;
 var countdownNumber = 10;
 
+
+
+/* Timer Countdown and pictures for when coundown goes to a certain amount */
 var changeState= function(state){
     document.body.className = 'body-state'+ state;
     clearInterval(timer);
@@ -39,6 +45,9 @@ var changeState= function(state){
         }, 200);
 
     }      
+    /* When countdown goes to zero
+    randomizes a number and if over 5, launches the rocket.
+    If the number is under 5, the rocket explodes. */
     else if (state == 3) {
             var success = setTimeout (function(){
 

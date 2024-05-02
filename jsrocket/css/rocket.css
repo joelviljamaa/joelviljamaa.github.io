@@ -1,5 +1,5 @@
 .left{
-    background-color: aquamarine;
+    background-color:darkorchid;
     position: fixed;
     width: 50%;
     height: 100%;
@@ -19,8 +19,8 @@ a{
 
 a.button{
 display: inline-block;
-background-color: white;
-color: black;
+background-color: rgb(134, 134, 134);
+color: rgb(218, 218, 218);
 padding: 20px 40px;
 text-decoration: none;
 border-radius: 10px;
@@ -28,11 +28,11 @@ text-transform: uppercase;
 }
 
 a:hover{
-    color: red;
+    color: rgb(68, 92, 170);
 }
 
 .right{
-    background-color: lightcyan;
+    background-color: lightgray;
     position: fixed;
     width: 50%;
     height: 100%;
